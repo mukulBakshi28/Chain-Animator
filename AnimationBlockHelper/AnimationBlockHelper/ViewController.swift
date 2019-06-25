@@ -12,8 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+ 
         let rdView:UIView =  {
             let myView = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
             myView.backgroundColor = UIColor.red
